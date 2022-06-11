@@ -36,7 +36,7 @@ const Registration = () => {
                 <Form
                     name="basic"
                     labelCol={{
-                        span: 11,
+                        span: 9,
                     }}
                     wrapperCol={{
                         span: 26,
@@ -108,8 +108,8 @@ const Registration = () => {
 
                     <Form.Item
                         wrapperCol={{
-                            offset: 8,
-                            span: 8,
+                            offset: 5.5,
+                            span: 5.5,
                         }}
                     >
                         <Button type="primary" htmlType="submit">
@@ -117,7 +117,7 @@ const Registration = () => {
                         </Button>
                     </Form.Item>
                 </Form>
-                <div className='sign-inn'>Войти</div>
+                <div className='sign-inn'><a href="#">Войти</a></div>
             </div>
 
         </div>

@@ -6,6 +6,10 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import './App.css';
+
+// import SignIn from './components/SignIn/SignIn';
+import 'antd/dist/antd.css';
 
 import 'antd/dist/antd.css'; 
 import './App.css';
@@ -13,7 +17,7 @@ import './App.css';
 import 'antd/dist/antd.css';
 import Registration from './Components/Registration'
 import './App.css';
-import CommunitiesPage from './Components/Posts/Communities/CommunitiesPage';
+// import CommunitiesPage from './Components/Posts/Communities/CommunitiesPage';
 // import Posts from './Components/Posts/Posts';
 
 function App() {
@@ -27,7 +31,7 @@ function App() {
         <Route path='/communities' element={<CommunitiesPage/>}/> */}
     </Routes>
     <Settings/>
-      
+    <Registration/>
       
     </div>
   );
