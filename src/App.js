@@ -1,5 +1,6 @@
 import './App.css';
 import Registration from './components/Registration';
+import SignIn from './components/SignIn/SignIn';
 import 'antd/dist/antd.css';
 
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
      
         <Registration/>
+        {/* <SignIn/> */}
       
     </div>
   );

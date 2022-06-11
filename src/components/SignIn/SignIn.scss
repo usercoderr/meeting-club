@@ -1,0 +1,39 @@
+
+
+    .club-words {
+        // padding-bottom: 35%;
+
+        .club-grey {
+            color: #000;
+            font-size: 62px;
+            padding: 0;
+            font-weight: bold;
+        }
+
+        .club-orange {
+            font-size: 62px;
+            color: #FFB61D;
+            padding: 0;
+            line-height: 0;
+        }
+    }
+
+    .meeting-words {
+        transform: rotate(-90deg);
+        .meeting-grey {
+            color: #000;
+            font-size: 62px;
+            line-height: 0;
+        }
+    
+        .meeting-orange {
+            color: #FFB61D;
+            font-size: 62px;
+        }
+    
+    }
+
+    .sign-in-box{
+        background-color: #222227;
+    }
+
