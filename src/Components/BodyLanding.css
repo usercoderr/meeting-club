@@ -1,0 +1,119 @@
+.body-landing{
+    background-color: #E5E5E5;
+
+}
+.main{
+    display: flex;
+    max-width: 1440px;
+    margin: auto 50px;
+    flex-direction: column;
+}
+.first-block{
+    display: flex;
+}
+.first-block_inside{
+    display: flex;
+}
+.desc-block{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+
+}
+.first-block_line_left{
+    display: flex;
+}
+.first-block_line_right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.picture-one{
+    display: flex;
+    width: 50%;
+}
+.second-block{
+    display: flex;
+    width: 100%;
+}
+.second-block_inside{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.desc-block_two{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.second-block_line_left{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+.second-block_line_right{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end ;
+}
+.text_2{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.picture-two{
+    display: flex;
+    
+}
+.third-block{
+    display: flex;
+    width: 100%;
+}
+.third-block_inside{
+    display: flex;
+    width: 100%;
+   
+}
+.picture-three{
+    display: flex;
+    width: 50%;
+}
+.third-block_text{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.join{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.join_inside{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.join_inside p{
+    display: flex;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
