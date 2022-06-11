@@ -21,10 +21,9 @@ export default function BodyLanding(props) {
                     </div>
                     <div className="text">
                         <p>
-                        Собирайтесь в группы, где вход 
-                        <span>
+                        Собирайтесь в группы, где вход <span className='yellow-text'>
                         только по приглашениям
-                        </span>, чтобы чувствовать себя комфортно
+                        </span> , чтобы чувствовать себя комфортно
                         </p>
                     </div>
                     <div className="first-block_line_right">
@@ -61,7 +60,9 @@ export default function BodyLanding(props) {
               </div>
               <div className="third-block_text">
                  <p>
-                 Используй MEETING CLUB для поддержаний отношений как с коллегами, так и друзьями
+                 Используй <span className='yellow-text'>
+                 MEETING CLUB
+                     </span>  для поддержаний отношений как с коллегами, так и друзьями
                  </p>
               </div>
             </div>
