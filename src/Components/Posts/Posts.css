@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+button{
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*/////////////// PANEL  ///////////////// */
+
+.panel{
+    width: 6%;
+    display: flex;
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.panel-icon{
+    width: 40px;
+}
+
+/*/////////////// USER PANEL  ///////////////// */
+
+.user-panel{
+    width: 20%;
+    height: 850px;
+    padding: 5%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #292929;
+}
+
+.user-panel p{
+    font-weight: 500;
+}
+
+.user-panel-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-panel span{
+    font-size: 25px;
+    margin-left: 5%;
+    color: #F7B801;
+}
+
+/*/////////////// COMMUNITIES  ///////////////// */
+
+.communities{
+    padding: 10px;
+}
+
+.communities-box{
+    margin-bottom: 15%;
+}
+
+.communities-name{
+    text-align: start;
+}
+
+/*/////////////// POSTS  ///////////////// */
+
+.posts-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.posts{
+    width: 80%;
+    padding-left: 5%;
+}
+
+.posts-input{
+    width: 95%;
+}
+
+.posts-input input{
+    width: 100%;
+    padding: 2%;
+    background-color: #353642;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #F7B801;
+}
+
+.posts-button{
+    width: 15%;
+}
+
+.posts-button button{
+    width: 100%;
+    padding: 11%;
+    font-weight: 600;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    background-color: #F7B801;
+}
+
+.news-box{
+    margin-top: 3%;
+    padding: 3%;
+    border-radius: 5px;
+    border: 2px solid #808080;
+}
+
+.news-name{
+    display: flex;
+}
+
+.news-ava{
+    margin-right: 20px;
+}
+
+.news-name p{
+    margin: 0 0 10px;
+}
+
+.likes{
+    color:#F7B801;
+}
