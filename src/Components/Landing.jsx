@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderLanding from './Landing/HeaderLanding'
 import BodyLanding from './Landing/BodyLanding'
 import FooterLanding from './Landing/FooterLanding'
+
 import './Landing.css'
 export default function Landing() {
   return (
@@ -13,6 +14,7 @@ export default function Landing() {
         <BodyLanding 
         text=''/>
         <FooterLanding/>
+        
         
     </div>
   )

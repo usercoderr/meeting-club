@@ -1,0 +1,129 @@
+.registration-box {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+    border-radius: 1px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+    .registration-words {
+        color: #222227;
+
+        .club-words {
+            padding-bottom: 35%;
+
+            .club-grey {
+                color: #000;
+                font-size: 62px;
+                padding: 0;
+                font-weight: bold;
+            }
+
+            .club-orange {
+                font-size: 62px;
+                color: #FFB61D;
+                padding: 0;
+                line-height: 0;
+            }
+        }
+
+        .meeting-words {
+            transform: rotate(-90deg);
+        }
+
+        .meeting-grey {
+            color: #000;
+            font-size: 62px;
+            line-height: 0;
+        }
+
+        .meeting-orange {
+            color: #FFB61D;
+            font-size: 62px;
+        }
+    }
+        .registration-form {
+            width: 50%;
+            // height: 60%;
+            background-color: #222227;
+            color: #fff;
+
+            Form.Item {
+                display: flex;
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 32px;
+                color: #fff;
+                padding: 5% 0;
+                text-align: center;
+            }
+
+            Input {
+                background-color: #222227;
+                border: 2px solid #FFB61D;
+                border-radius: 10px;
+                // width: 100%;
+                height: 50px;
+                color: #fff;
+                padding-bottom: 10px;
+            }
+
+            label {
+                color: #fff;
+            }
+
+            .ant-form-item {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+            }
+
+            .ant-input-password {
+                padding: 0;
+                margin: 0;
+                // width: 68%;
+                background-color: #222227;
+                border: 2px solid #FFB61D;
+                border-radius: 10px;
+            }
+
+            .ant-form-item-control{
+                align-items: center;
+            }
+            .ant-input-password-icon.anticon {
+                color: #fff;
+            }
+
+            .ant-form-item-label {
+                text-align: none;
+            }
+
+            Button {
+                // width: 68%;
+                background: rgba(247, 184, 1, 0.2);
+                padding: 24px 50px;
+                border: 2px solid rgba(247, 184, 1, 0.2);
+                border-radius: 10px;
+                font-size: 18px;
+                font-weight: 700;
+                font-family: 'Ubuntu';
+                color: #292929;
+
+                &:hover {
+                    background-color: #F7B801;
+                }
+            }
+
+            .sign-inn {
+                color: rgba(128, 128, 128, 0.8);
+            }
+
+
+        }
+    
+}

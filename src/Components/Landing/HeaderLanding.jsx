@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../../Icons/LOGO.png'
 import ButtonReg from './ButtonReg'
 import './HeaderLanding.css'
@@ -38,8 +39,10 @@ export default function HeaderLanding(props) {
         <div className="right-block">
             <div className="right-block_inside">
                 <div className="button2">
-                    <ButtonReg
-                    text='Вход'/>
+                    <Link to="/registration">
+                        <ButtonReg
+                        text='Вход'/>
+                    </Link>
                 </div>
 
             </div>
