@@ -1,9 +1,9 @@
 import React from 'react'
 import { Button, Form, Input } from 'antd';
-import './SignIn.scss'
+import './SendingCode.scss'
 
 
-const SignIn = () => {
+const SendingCode = () => {
     const onFinish = (values) => {
         console.log('Success:', values);
     };
@@ -14,25 +14,10 @@ const SignIn = () => {
 
     return (
         <div className='registration-box'>
-            <div className='registration-words'>
-                <div className='club-words'>
-                    <div className='club-grey'>CLUB</div>
-                    <div className='club-orange'>CLUB</div>
-                    <div className='club-grey'>CLUB</div>
-                </div>
-                <div className='meeting-words'>
-                    <div className='meeting-grey'>MEETING</div>
-                    <div className='meeting-orange'>MEETING</div>
-                    <div className='meeting-grey'>MEETING</div>
-                </div>
-
-
-
-            </div>
 
             <div className='registration-form'>
 
-                <h1>Мы рады видеть вас снова!</h1>
+                <h1>Мы отправили одноразовый код на ваш <span className='colored-email'>email</span></h1>
                 <Form
                     name="basic"
                     labelCol={{
@@ -53,23 +38,8 @@ const SignIn = () => {
                 >
 
                     <Form.Item layout="center"
-                        label="E-Mail"
-                        name="email"
-                        rules={[
-                            {
-                                type: 'email',
-                                required: true,
-                                message: 'Please input your email!',
-                            },
-                        ]}
-                    >
-                        <Input />
-                    </Form.Item>
-                    {/* поле почты */}
-
-                    <Form.Item layout="center"
-                        label="Пароль"
-                        name="password"
+                        label="Введите код"
+                        name="code"
                         rules={[
                             {
                                 required: true,
@@ -81,6 +51,9 @@ const SignIn = () => {
                     </Form.Item>
                     {/* поле пароли */}
 
+                    <div className='sign-inn'><a href="#">Отправить еще раз</a></div>
+
+
 
                     <Form.Item
                         wrapperCol={{
@@ -89,11 +62,10 @@ const SignIn = () => {
                         }}
                     >
                         <Button type="primary" htmlType="submit">
-                            Войти
+                            Зарегистрироваться
                         </Button>
                     </Form.Item>
                 </Form>
-                <div className='sign-inn'><a href="#">Зарегистрироваться</a></div>
             </div>
 
         </div>
@@ -101,4 +73,4 @@ const SignIn = () => {
     );
 };
 
-export default SignIn;
+export default SendingCode;
