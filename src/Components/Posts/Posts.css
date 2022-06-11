@@ -5,6 +5,10 @@ a{
     text-decoration: none;
 }
 
+.cp{
+    cursor: pointer;
+}
+
 img{
     width: 100%;
 }
@@ -39,7 +43,7 @@ button{
 
 .user-panel{
     width: 20%;
-    height: 850px;
+    height: fit-content;
     padding: 5%;
     text-align: center;
     border-radius: 10px;
@@ -54,6 +58,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .user-panel span{
@@ -119,9 +124,13 @@ button{
 
 .news-box{
     margin-top: 3%;
-    padding: 3%;
     border-radius: 5px;
     border: 2px solid #808080;
+}
+
+.news-box-container{
+    width: 90%;
+    margin: 40px auto 0;
 }
 
 .news-name{
@@ -136,6 +145,68 @@ button{
     margin: 0 0 10px;
 }
 
-.likes{
+.news-icons{
+    display: flex;
+    margin-top: 10px;
+}
+
+.news-icons .icon{
+    font-size: 30px;
+}
+
+.news-icons .likes{
     color:#F7B801;
+}
+
+.news-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.news-comments-container{
+    border-top: 2px solid #808080;
+    padding: 10px 35px 35px 35px;
+}
+
+.news-comments{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.news-user-ava{
+    width: 8%;
+    margin-right: 10px;
+}
+
+.user-comment{
+    display: flex;
+    align-items: center;
+}
+
+.user-comment-input{
+    width: 100%;
+    display: flex;
+}
+
+.user-comment input{
+    padding: 3%;
+    width: 95%;
+    background-color: #353642;
+    outline: none;
+    border-radius: 15px;
+    border: 2px solid #F7B801;
+    color: #fff;
+}
+
+.user-comment-button{
+    padding: 3%;
+    font-weight: 600;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    background-color: #F7B801;
+    margin-left: 10px;
 }

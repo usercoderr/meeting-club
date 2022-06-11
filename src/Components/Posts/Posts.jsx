@@ -25,23 +25,23 @@ export default function Posts() {
                 <img src={userPhoto} alt="" />
                 <p>Манас Султанов</p>
                 {communities &&
-                        <a href="#" className='user-panel-button' onClick={handleClick}>
-                            <div>
+                    <div className='user-panel-button' onClick={handleClick}>
+                        <div>
                             Сообщества
-                            </div>
-                            <span>
-                                <BiChevronDown />
-                            </span>
-                        </a>
+                        </div>
+                        <span>
+                            <BiChevronDown />
+                        </span>
+                    </div>
                 }
-                {!communities &&  <a href="#" className='user-panel-button' onClick={handleClick}>
-                            <div>
-                            Сообщества
-                            </div>
-                            <span>
-                                <BiChevronUp />
-                            </span>
-                        </a>}
+                {!communities && <div className='user-panel-button' onClick={handleClick}>
+                    <div>
+                        Сообщества
+                    </div>
+                    <span>
+                        <BiChevronUp />
+                    </span>
+                </div>}
                 {communities && <div className='communities'>
                     <Communities />
                 </div>}
