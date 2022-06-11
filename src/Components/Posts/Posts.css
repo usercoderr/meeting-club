@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 
-.row .a{
+.row a{
     color: #fff;
     text-decoration: none;
+}
+
+.df{
+    display: flex;
 }
 
 .row .cp{
@@ -218,6 +222,61 @@
     width: 100%;
     padding: 0 4%;
 }
+
+.communities-name{
+    justify-content: space-between;
+    padding: 3% 0;
+    border-bottom: 2px solid #808080;
+}
+
+.communities-description{
+    margin-left: 10px;
+}
+
+.communities-title{
+    margin: 0;
+}
+
+.communities-button{
+    display: flex;
+    align-items: end;
+}
+
+.communities-button button{
+    border-radius: 5px;
+    border: 2px solid #F7B801;
+    background-color: #353642;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.communities-icons{
+    display: flex;
+    align-items: center;
+}
+
+.communities-icon{
+    font-size: 20px;
+}
+
+.communities-information{
+    border-radius: 5px;
+    border: 2px solid #808080;
+    margin: 3% 0;
+}
+
+.information-name{
+    border-bottom: 2px solid #808080;
+}
+
+.information-container{
+    padding: 1% 3%;
+}
+
+.information-container a{
+    color: #FFB61D;
+}
+
 
 /*/////////////// MEDIA  ///////////////// */
 
