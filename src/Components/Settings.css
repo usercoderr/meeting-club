@@ -1,0 +1,48 @@
+.settings{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #222227;
+}
+.settings-inside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    margin: 20px;
+    padding: 0%;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.avatar-frame{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FFB61D;
+    border-radius: 10px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.add{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.add button{
+    background-color: #22222700;
+    width: 0%;
+    height: 0%;
+    margin: 0%;
+    padding: 0%;
+    justify-content: flex-end;
+}
