@@ -6,11 +6,12 @@
     background-color: #E5E5E5;
     display: flex;
     justify-content: space-around;
-    padding: 4%;
+    // padding: 4%;
     border-radius: 1px;
     text-align: center;
     width: 100%;
     height: auto;
+    align-items: center;
 
     .registration-words {
         color: #222227;
@@ -112,7 +113,7 @@
 
         .ant-btn span {
             padding: 0 52px;
-
+            // width: 45%;
         }
 
         .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
@@ -123,7 +124,8 @@
         .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover {
             background-color: #222227;
         }
-        .anticon svg{
+
+        .anticon svg {
             font-size: 30px;
         }
 
@@ -144,9 +146,22 @@
         }
 
         .sign-inn {
-            color: rgba(128, 128, 128, 0.8);
+            padding: 2% 0;
+            text-decoration: none;
+
+            a {
+                color: rgba(128, 128, 128, 0.8);
+            }
         }
 
     }
 
+}
+
+@media all and (max-width:2560px) {
+    .registration-box {
+        height: 1600px;
+
+
+    }
 }

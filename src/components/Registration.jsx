@@ -117,7 +117,7 @@ const Registration = () => {
                         </Button>
                     </Form.Item>
                 </Form>
-                <div className='sign-inn'>Войти</div>
+                <div className='sign-inn'><a href="#">Войти</a></div>
             </div>
 
         </div>
