@@ -1,7 +1,7 @@
 import React from 'react'
-import BodyLanding from './BodyLanding'
-import FooterLanding from './FooterLanding'
-import HeaderLanding from './HeaderLanding'
+import HeaderLanding from './Landing/HeaderLanding'
+import BodyLanding from './Landing/BodyLanding'
+import FooterLanding from './Landing/FooterLanding'
 import './Landing.css'
 export default function Landing() {
   return (
@@ -13,6 +13,7 @@ export default function Landing() {
         <BodyLanding 
         text=''/>
         <FooterLanding/>
+        
     </div>
   )
 }

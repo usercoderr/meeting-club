@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './../Icons/LOGO.png'
+import logo from '../../Icons/LOGO.png'
 import ButtonReg from './ButtonReg'
 import './HeaderLanding.css'
 export default function HeaderLanding(props) {

@@ -1,9 +1,9 @@
 import React from 'react'
 import './BodyLanding.css'
-import pic_one from './../Icons/Rectangle 2 (1).png'
-import lines from '../Icons/вектор.png'
-import pic_two from '../Icons/Rectangle 3.png'
-import pic_three from '../Icons/Rectangle 4.png'
+import pic_one from '../../Icons/Rectangle 2 (1).png'
+import lines from '../../Icons/вектор.png'
+import pic_two from '../../Icons/Rectangle 3.png'
+import pic_three from '../../Icons/Rectangle 4.png'
 import ButtonReg from './ButtonReg'
 
 export default function BodyLanding(props) {

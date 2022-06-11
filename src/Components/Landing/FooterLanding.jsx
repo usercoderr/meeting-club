@@ -1,7 +1,7 @@
 import React from 'react'
 import './FooterLan.css'
-import insta from '../Icons/Vector (1).png'
-import youtube from '../Icons/Vector (2).png'
+import insta from '../../Icons/Vector (1).png'
+import youtube from '../../Icons/Vector (2).png'
 
 export default function FooterLanding() {
   return (
