@@ -12,7 +12,7 @@ export const posts = [
         newsDescription:'В это воскренье  в 14 00 присоединяйтесь к нам на мастер-класс по йоге.',
         newsImage: photo1,
         likes:25,
-        comments:10
+        comments:1
     },
     {
         id:2,
@@ -22,6 +22,6 @@ export const posts = [
         newsDescription:'В эту пятницу  в 10 00 присоединяйтесь к нам на стретчинг.',
         newsImage: photo2,
         likes:25,
-        comments:10
+        comments:1
     }
 ]

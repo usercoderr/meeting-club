@@ -3,6 +3,8 @@ import { posts } from '../../../files/posts'
 import { BiHeart, BiCommentDetail } from "react-icons/bi";
 import userCom from '../../../image/usercom.png'
 import userAva from '../../../image/userAva.png'
+import { Link } from 'react-router-dom';
+import CommunitiesPage from '../Communities/CommunitiesPage';
 
 export default function PostsList() {
   const [like, setLike] = useState('')
@@ -17,10 +19,10 @@ export default function PostsList() {
             <div className='news-box-container'>
             <div className='news-name'>
               <div className='news-ava'>
-                <img src={news.communitieImage} alt="" />
+                <Link to='/communities' element={<CommunitiesPage/>}><img src={news.communitieImage} alt="" /></Link>
               </div>
               <div>
-                <p>{news.name}</p>
+              <Link to='/communities' element={<CommunitiesPage/>}><p>{news.name}</p></Link>
                 <p>{news.data}</p>
               </div>
             </div>
@@ -39,7 +41,7 @@ export default function PostsList() {
             </div>
             </div>
             <div className='news-comments-container'>
-            <div className='news-comments'>
+            <div className='news-comments'> 
               <div className='news-user-ava'>
                 <img src={userCom} alt="" />
               </div>

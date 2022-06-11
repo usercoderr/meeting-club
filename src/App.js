@@ -12,15 +12,23 @@ import './App.css';
 
 import 'antd/dist/antd.css';
 import Registration from './Components/Registration'
+import './App.css';
+import CommunitiesPage from './Components/Posts/Communities/CommunitiesPage';
+// import Posts from './Components/Posts/Posts';
 
 function App() {
   return (
     <div className="App">
-     <Settings/>
-      {/* <Routes>
+     
+      <Routes>
       <Route path="/" element={<Landing/>}/>
       <Route path="/registration" element={<Registration/>} />
-    </Routes> */}
+        {/* <Route path='/' element={<Posts/>}/>
+        <Route path='/communities' element={<CommunitiesPage/>}/> */}
+    </Routes>
+    <Settings/>
+      
+      
     </div>
   );
 }
