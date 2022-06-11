@@ -106,6 +106,7 @@ button{
     outline: none;
     border-radius: 5px;
     border: 2px solid #F7B801;
+    color: #fff;
 }
 
 .posts-button{
@@ -210,3 +211,32 @@ button{
     background-color: #F7B801;
     margin-left: 10px;
 }
+
+/*/////////////// MEDIA  ///////////////// */
+
+@media screen and (min-width: 2560px) {
+    .user-panel{
+        width: 20%;
+    }
+    .posts-input{
+        width: 96%;
+    }
+    .posts-button{
+        width: 14%;
+    }
+    .posts-input input{
+        border-radius: 15px;
+    }
+    .posts-button button{
+        border-radius: 15px;
+    }
+    .user-comment input{
+        width: 80%;
+    }
+    .user-comment-button{
+        width: 10%;
+    }
+}
+
+
+

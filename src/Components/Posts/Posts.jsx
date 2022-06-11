@@ -3,7 +3,7 @@ import './Posts.css'
 import logo from '../../image/logo.png'
 import user from '../../image/user.png'
 import userPhoto from '../../image/userphoto.png'
-import Communities from './Communities/Communities'
+import Communities from './Communities/CommunitiesCategories'
 import PostsList from './PostsList/PostsList'
 import { BiChevronDown, BiChevronUp } from "react-icons/bi";
 
