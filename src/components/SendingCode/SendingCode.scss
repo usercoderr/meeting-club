@@ -6,52 +6,15 @@
     background-color: #E5E5E5;
     display: flex;
     justify-content: space-around;
-    // padding: 4%;
     border-radius: 1px;
     text-align: center;
     width: 100%;
     height: auto;
-    align-items: center;
 
-    .registration-words {
-        color: #222227;
-
-        .club-words {
-            padding-bottom: 35%;
-
-            .club-grey {
-                color: #000;
-                font-size: 62px;
-                padding: 0;
-                font-weight: bold;
-            }
-
-            .club-orange {
-                font-size: 62px;
-                color: #FFB61D;
-                padding: 0;
-                line-height: 0;
-            }
-        }
-
-        .meeting-words {
-            transform: rotate(-90deg);
-        }
-
-        .meeting-grey {
-            color: #000;
-            font-size: 62px;
-            line-height: 0;
-        }
-
-        .meeting-orange {
-            color: #FFB61D;
-            font-size: 62px;
-        }
-    }
 
     .registration-form {
         width: 50%;
+        height: 30%;
         background-color: #222227;
         color: #fff;
 
@@ -65,11 +28,13 @@
             color: #fff;
             padding: 2% 0;
             text-align: center;
+            .colored-email{
+                color: #F7B801;
+            }
         }
 
         Input {
             background-color: #222227;
-            border: 2px solid #FFB61D;
             border-radius: 10px;
             height: 50px;
             color: #fff;
@@ -104,7 +69,7 @@
         }
 
         .ant-form-item-control-input {
-            width: 40%;
+            width: 70%;
         }
 
         .ant-form-item-label {
@@ -195,6 +160,12 @@
 @media all and (max-width:2560px) {
     .registration-box {
         height: 1600px;
+
+        
+    .registration-form {
+        width: 50%;
+        height: 30%;
+    }
 
 
     }

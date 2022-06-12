@@ -10,8 +10,11 @@ export default function HeaderLanding(props) {
         <div className="left-block">
             <div className="left-block_inside">
             <div className="logo">
+            <Link to="/posts" className='links-routes'>
+
                 <img src={logo} width={62}
                 height={54} alt="" />
+            </Link>
             </div>
             <div className="info-block">
                 <div className="first">
@@ -30,8 +33,11 @@ export default function HeaderLanding(props) {
                     </p>
                 </div>
                 <div className="button">
+                <Link to="/registration" className='links-routes'>
+
                     <ButtonReg
                     text='Зарегистрироваться'/>
+                </Link>
                 </div>
             </div>
             </div>
@@ -39,7 +45,7 @@ export default function HeaderLanding(props) {
         <div className="right-block">
             <div className="right-block_inside">
                 <div className="button2">
-                    <Link to="/registration">
+                    <Link to="/sign-in" className='links-routes'>
                         <ButtonReg
                         text='Вход'/>
                     </Link>

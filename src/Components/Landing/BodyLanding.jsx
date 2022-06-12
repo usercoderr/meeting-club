@@ -5,6 +5,7 @@ import lines from '../../Icons/вектор.png'
 import pic_two from '../../Icons/Rectangle 3.png'
 import pic_three from '../../Icons/Rectangle 4.png'
 import ButtonReg from './ButtonReg'
+import { Link } from 'react-router-dom'
 
 export default function BodyLanding(props) {
   return (
@@ -74,9 +75,13 @@ export default function BodyLanding(props) {
                 </p>
             </div>
             <div className="registration">
+            <Link to="/registration" className='links-routes'>
+
                 <ButtonReg
                 text='Зарегистрироваться'/>
+                </Link>
             </div>
+            
         </div>
     </div>
     </div>

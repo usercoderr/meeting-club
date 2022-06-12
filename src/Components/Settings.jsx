@@ -4,14 +4,17 @@ import plus from '../Icons/Plus.png'
 import Forma from './Settings/Forma'
 import ava from '../Icons/ava.png'
 import './Settings.css'
+import { Link } from 'react-router-dom'
 
 export default function Settings(props) {
   return (
     <div className='settings'>
         <div className="settings-inside">
             <div className="logo">
-                <img src={logo} width={62}
+               <Link to="/posts">
+               <img src={logo} width={62}
                 height={54} alt="" />
+               </Link>
             </div>
             <div className="avatar">
                 <div className="avatar-frame">

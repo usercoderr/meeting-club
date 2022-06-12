@@ -6,6 +6,7 @@ import userPhoto from '../../image/userphoto.png'
 import Communities from './Communities/CommunitiesCategories'
 import PostsList from './PostsList/PostsList'
 import { BiChevronDown, BiChevronUp } from "react-icons/bi";
+import {Link} from 'react-router-dom'
 
 
 
@@ -18,8 +19,8 @@ export default function Posts() {
     return (
         <div className='row '>
             <div className='panel'>
-                <a href="#"><img src={logo} alt="" /></a>
-                <a href="#" className='panel-icon'><img src={user} alt="" /></a>
+                <Link to="/posts"><img src={logo} alt="" /></Link>
+                <Link to="/setting" className='panel-icon'><img src={user} alt="" /></Link>
             </div>
             <div className='user-panel'>
                 <img src={userPhoto} alt="" />

@@ -8,6 +8,7 @@ import comunitiesPhoto from '../../../image/communitiesphoto.png'
 import { BiChevronDown, BiChevronUp } from "react-icons/bi";
 import comImg from '../../../image/postPhoto3.png'
 import CommunitiesList from './CommunitiesList'
+import {Link} from 'react-router-dom'
 
 export default function CommunitiesPage() {
   const [communities, setCommunities] = useState('')
@@ -19,8 +20,8 @@ export default function CommunitiesPage() {
     <div>
       <div className='row '>
         <div className='panel'>
-          <a href="#"><img src={logo} alt="" /></a>
-          <a href="#" className='panel-icon'><img src={user} alt="" /></a>
+          <Link to="/posts"><img src={logo} alt=""/></Link>
+          <Link to="/setting" className='panel-icon'><img src={user} alt=""/></Link>
         </div>
         <div className='user-panel'>
           <img src={userPhoto} alt="" />

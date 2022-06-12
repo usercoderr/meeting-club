@@ -95,7 +95,7 @@
 }
 
 .posts{
-    width: 80%;
+    width: 95%;
     padding-left: 5%;
 }
 
@@ -106,7 +106,7 @@
 .posts-input input{
     width: 100%;
     padding: 2%;
-    background-color: #353642;
+    background-color: #222227;
     outline: none;
     border-radius: 5px;
     border: 2px solid #F7B801;
@@ -194,12 +194,13 @@
 .user-comment-input{
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .user-comment input{
     padding: 3%;
     width: 95%;
-    background-color: #353642;
+    background-color: #222227;
     outline: none;
     border-radius: 15px;
     border: 2px solid #F7B801;
@@ -245,7 +246,7 @@
 .communities-button button{
     border-radius: 5px;
     border: 2px solid #F7B801;
-    background-color: #353642;
+    background-color: #222227;
     color: #fff;
     padding: 10px 20px;
 }

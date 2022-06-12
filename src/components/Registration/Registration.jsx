@@ -1,6 +1,8 @@
 import React from 'react'
 import { Button, Checkbox, Form, Input } from 'antd';
 import './Registration.scss'
+import logo from '../../image/blacklogo.png'
+import {Link} from 'react-router-dom'
 
 
 const Registration = () => {
@@ -12,8 +14,13 @@ const Registration = () => {
         console.log('Failed:', errorInfo);
     };
 
+
     return (
-        <div className='registration-box'>
+        <div className='registration-container'>
+        <div>
+          <Link to="/posts"><img src={logo} alt=""/></Link>
+         </div>
+             <div className='registration-box'>
             <div className='registration-words'>
                 <div className='club-words'>
                     <div className='club-grey'>CLUB</div>
@@ -121,7 +128,7 @@ const Registration = () => {
             </div>
 
         </div>
-
+        </div>
     );
 };
 
