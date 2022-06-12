@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../Icons/LOGO2.png'
 import plus from '../Icons/Plus.png'
 import Forma from './Settings/Forma'
+import ava from '../Icons/ava.png'
 import './Settings.css'
 
 export default function Settings(props) {
@@ -14,11 +15,10 @@ export default function Settings(props) {
             </div>
             <div className="avatar">
                 <div className="avatar-frame">
-                    <div className="add">
-                        <button>
+                    <img src={ava} alt="" />
+                        <button className='plus'>
                         <img src={plus} alt="" />
                         </button>
-                    </div>
                 </div>
                 <div className="username">
                     <p>

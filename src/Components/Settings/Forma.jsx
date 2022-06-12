@@ -1,6 +1,7 @@
-import { Button, Checkbox, Form, Input } from 'antd';
+import {Form, Input } from 'antd';
 import React from 'react';
 import ButtonReg from '../Landing/ButtonReg';
+import './Forma.css'
 
 const Forma = () => {
   const onFinish = (values) => {
@@ -30,8 +31,9 @@ const Forma = () => {
         onFinishFailed={onFinishFailed}
         autoComplete="off"
         >
+          <div className='label-set'>Сменить логин</div>
       <Form.Item
-        label="Username"
+        
         name="username"
         rules={[
             {
@@ -40,12 +42,11 @@ const Forma = () => {
             },
         ]}
         >
-        <Input />
+        <Input  className='input-class'/>
       </Form.Item>
       
-
-      <Form.Item
-        label="Password"
+        <div className='label-set'>Сменить пароль</div>
+      <Form.Item className='item-label'
         name="password"
         rules={[
             {
@@ -54,19 +55,20 @@ const Forma = () => {
             },
         ]}
         >
-        <Input.Password />
+        <Input.Password  className='input-class'/>
       </Form.Item>
+      <div className='label-set'>E-mail</div>
       <Form.Item
-        label="Username"
-        name="username"
+        
+        name="email"
         rules={[
             {
                 required: true,
-                message: 'Please input your username!',
+                message: 'Please input your Email!',
             },
         ]}
         >
-        <Input />
+        <Input className='input-class' />
       </Form.Item>
 
       
@@ -91,34 +93,26 @@ const Forma = () => {
         onFinishFailed={onFinishFailed}
         autoComplete="off"
         >
+          <div className='label-set'>Вставить ссылку</div>
       <Form.Item
-        label="Username"
+        
         name="username"
-        rules={[
-            {
-                required: true,
-                message: 'Please input your username!',
-            },
-        ]}
+       
         >
-        <Input />
+        <Input className='input-class'/>
       </Form.Item>
       
-
+      <div className='label-set'>Вставить ссылку</div>
       <Form.Item
-        label="Password"
-        name="password"
-        rules={[
-            {
-                required: true,
-                message: 'Please input your password!',
-            },
-        ]}
+        
+        name="links"
+        
         >
-        <Input.Password />
+        <Input  className='input-class' />
       </Form.Item>
+      <div className='label-set'>Вставить ссылку</div>
       <Form.Item
-        label="Username"
+        
         name="username"
         rules={[
             {
@@ -127,7 +121,7 @@ const Forma = () => {
             },
         ]}
         >
-        <Input />
+        <Input className='input-class'/>
       </Form.Item>
 
       

@@ -1,5 +1,5 @@
+import { communitiesList } from '../../../files/communitiesList'
 import React, { useState } from 'react'
-import { posts } from '../../../files/posts'
 import { BiHeart, BiCommentDetail } from "react-icons/bi";
 import userCom from '../../../image/usercom.png'
 import userAva from '../../../image/userAva.png'
@@ -7,15 +7,15 @@ import { Link } from 'react-router-dom';
 import CommunitiesPage from '../Communities/CommunitiesPage';
 import ButtonReg from '../../Landing/ButtonReg';
 
-export default function PostsList() {
-  const [like, setLike] = useState('')
+export default function CommunitiesList() {
+    const [like, setLike] = useState('')
 
   const handleLike = () => {
     setLike(!like)
   }
   return (
     <div>
-      {posts.map(news =>
+        {communitiesList.map(news =>
           <div className='news-box'>
             <div className='news-box-container'>
             <div className='news-name'>
