@@ -44,14 +44,16 @@
     width: 100%;
     align-items: flex-end;
     justify-content: flex-start;
-    
     z-index: 3;
     background-color: #22222700;
     width: 0%;
     height: 0%;
     margin: 0%;
     padding: 0%;
-  
+}
+.plus img {
+    display: flex;
+    margin-left: 120px;
 }
 .username{
     display: flex;

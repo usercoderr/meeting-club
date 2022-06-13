@@ -124,7 +124,12 @@ const Registration = () => {
                         </Button>
                     </Form.Item>
                 </Form>
-                <div className='sign-inn'><a href="#">Войти</a></div>
+                <div className='sign-inn'>
+                    <Link to="/sign-in" className='links-routes'>
+                        Войти
+                    </Link>
+                    
+                </div>
             </div>
 
         </div>

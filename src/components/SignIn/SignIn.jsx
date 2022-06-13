@@ -99,7 +99,11 @@ const SignIn = () => {
                         </Button>
                     </Form.Item>
                 </Form>
-                <div className='sign-inn'><a href="#">Зарегистрироваться</a></div>
+                <div className='sign-inn'>
+                    <Link to="/registration" className='links-routes'>
+                        Зарегистрироваться
+                    </Link>
+                </div>
             </div>
 
         </div>

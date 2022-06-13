@@ -1,26 +1,16 @@
 import React from 'react'
 import Landing from './Components/Landing'
 import Settings from './Components/Settings';
-import {
- 
-  Routes,
-  Route,
-} from "react-router-dom";
-import './App.css';
-
-
 import SignIn from './Components/SignIn/SignIn';
 import SendingCOde from './Components/SendingCode/SendingCode'
-import 'antd/dist/antd.css';
-
-
-import './App.css';
-
-
 import Registration from './Components/Registration/Registration'
 import CommunitiesPage from './Components/Posts/Communities/CommunitiesPage';
 import Posts from './Components/Posts/Posts';
-import ButtonReg from './Components/Landing/ButtonReg';
+import { Routes,Route} from "react-router-dom";
+import 'antd/dist/antd.css';
+import './App.css';
+
+
 
 function App() {
   return (
