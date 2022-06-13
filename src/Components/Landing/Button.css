@@ -1,0 +1,10 @@
+button{
+    background-color: #F7B801;
+    text-align: center;
+    padding: 18px 32px;
+    border-radius: 10px;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}

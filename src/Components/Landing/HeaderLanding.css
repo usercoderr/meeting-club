@@ -1,0 +1,93 @@
+.header{
+    background-color:  #E5E5E5;;
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    height: 120vh;
+}
+.header-inside{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.left-block{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+.left-block_inside{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    justify-content: flex-start;
+}
+.logo{
+    display: flex;
+    padding: 40px 0px 0px 0px;
+}
+.info-block{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    padding: 180px 0px 0px 0px;
+}
+.first{
+    display: flex;
+   
+}
+.first p{
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 120px;
+    font-family: 'Work Sans';
+    text-transform: uppercase;
+    text-align: justify;
+    margin: 0%;
+    
+}
+.second{
+   display: flex; 
+}
+.second p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: 'Work Sans';
+    padding: 0%;
+    margin: 0%;
+    
+}
+.third{
+    display: flex;
+}
+.third p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: 'Work Sans';
+    
+}
+.button{
+    display: flex;
+}
+.right-block{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-image: url(../../Icons/pic\ first\ display.png);
+}
+.right-block_inside{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: flex-end;
+}
+.button2{
+    padding: 40px 0px 0px 0px;
+}
+
+.links-routes button{
+    color: #000;
+}
