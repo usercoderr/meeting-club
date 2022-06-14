@@ -56,7 +56,9 @@ export default function CommunitiesList() {
               </div>
               <div className='user-comment-input'>
                 <input type="text" placeholder='Комментировать'/>
-                <button className='user-comment-button'>Send</button>
+              </div>
+              <div className='user-comment-button-div'>
+              <button className='user-comment-button'>Send</button>
               </div>
             </div>
             </div>

@@ -10,7 +10,12 @@ import comImg from '../../../image/postPhoto3.png'
 import CommunitiesList from './CommunitiesList'
 
 export default function CommunitiesPage() {
+  const [follow, setFollow] = useState('')
   const [communities, setCommunities] = useState('')
+
+  const handleFollow = () => {
+    setFollow(!follow)
+  }
 
   const handleClick = () => {
     setCommunities(!communities)
@@ -19,7 +24,7 @@ export default function CommunitiesPage() {
     <div>
       <div className='row '>
         <div className='panel'>
-          <a href="#"><img src={logo} alt="" /></a>
+          <a href="#"><img className='main-logo' src={logo} alt="" /></a>
           <a href="#" className='panel-icon'><img src={user} alt="" /></a>
         </div>
         <div className='user-panel'>
@@ -49,31 +54,39 @@ export default function CommunitiesPage() {
         </div>
         <div className='communities-container'>
           <img src={comunitiesPhoto} alt="" />
-          <div className='df communities-name'>
+          <div className='df communities-title'>
             <div className='df'>
               <div>
                 <img src={comImg} alt="" />
               </div>
               <div className='communities-description'>
-                <p className='communities-title'>Твин Пикс </p>
+                <p className='name-communities'>Твин Пикс </p>
                 <p>Не только кино</p>
               </div>
             </div>
             <div className='communities-button'>
-              <button>
-                <div className='communities-icons'>
+              {follow && <div className='communities-icons' onClick={handleFollow}>
+                <button>
                   Вы подписаны
                   <span className='communities-icon'>
                     <BiChevronDown />
                   </span>
-                </div>
-              </button>
+                </button>
+              </div>}
+              {!follow && <div className='communities-icons' onClick={handleFollow}>
+                <button style={{ "background": "#FFB61D" }}>
+                  Подписаться
+                  <span className='communities-icon'>
+                    <BiChevronUp />
+                  </span>
+                </button>
+              </div>}
             </div>
           </div>
           <div className='communities-information'>
             <div className='information-name'>
               <div className='information-container'>
-              Информация
+                Информация
               </div>
             </div>
             <div className='information-container'>
@@ -82,10 +95,10 @@ export default function CommunitiesPage() {
             </div>
           </div>
           <div className='posts-container'>
-                <div className='posts'>
-                    <CommunitiesList />
-                </div>
+            <div className='posts'>
+              <CommunitiesList />
             </div>
+          </div>
         </div>
       </div>
     </div>

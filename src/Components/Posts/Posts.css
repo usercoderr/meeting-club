@@ -27,6 +27,11 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.row .main-logo{
+    width: 61px;
+    height: 54px;
+}
+
 /*/////////////// PANEL  ///////////////// */
 
 .panel{
@@ -192,12 +197,17 @@
 }
 
 .user-comment-input{
-    width: 100%;
+    width: 85%;
     display: flex;
 }
 
+.user-comment-button-div{
+    width: 10%;
+}
+
 .user-comment input{
-    padding: 3%;
+    padding: 1% 2%;
+    height: 30px;
     width: 95%;
     background-color: #353642;
     outline: none;
@@ -214,6 +224,8 @@
     border-radius: 15px;
     background-color: #F7B801;
     margin-left: 10px;
+    height: 42px;
+    width: 100%;
 }
 
 /*/////////////// COMMUNITIES  ///////////////// */
@@ -226,6 +238,11 @@
 .communities-name{
     justify-content: space-between;
     padding: 3% 0;
+}
+
+.communities-title{
+    justify-content: space-between;
+    padding: 3% 0;
     border-bottom: 2px solid #808080;
 }
 
@@ -233,7 +250,7 @@
     margin-left: 10px;
 }
 
-.communities-title{
+.name-communities{
     margin: 0;
 }
 
@@ -243,11 +260,15 @@
 }
 
 .communities-button button{
+    width: 160px;
     border-radius: 5px;
     border: 2px solid #F7B801;
     background-color: #353642;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 10px 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .communities-icons{

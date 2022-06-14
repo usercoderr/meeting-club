@@ -18,7 +18,7 @@ export default function Posts() {
     return (
         <div className='row '>
             <div className='panel'>
-                <a href="#"><img src={logo} alt="" /></a>
+                <a href="#"><img className='main-logo' src={logo} alt="" /></a>
                 <a href="#" className='panel-icon'><img src={user} alt="" /></a>
             </div>
             <div className='user-panel'>
