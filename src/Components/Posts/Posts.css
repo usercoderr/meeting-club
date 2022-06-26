@@ -40,6 +40,7 @@
     padding: 20px;
     height: 200px;
     text-align: center;
+    align-items: center;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -52,10 +53,10 @@
 
 .user-panel{
     width: 20%;
-    height: fit-content;
     padding: 5%;
     text-align: center;
     border-radius: 10px;
+    height: fit-content;
     background-color: #292929;
 }
 
@@ -65,9 +66,9 @@
 
 .user-panel-button{
     display: flex;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
 }
 
 .user-panel span{
@@ -93,10 +94,10 @@
 /*/////////////// POSTS  ///////////////// */
 
 .posts-container{
-    display: flex;
     width: 100%;
-    justify-content: space-between;
     padding: 3%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .posts{
@@ -111,11 +112,11 @@
 .posts-input input{
     width: 100%;
     padding: 2%;
-    background-color: #353642;
+    color: #fff;
     outline: none;
     border-radius: 5px;
     border: 2px solid #F7B801;
-    color: #fff;
+    background-color: #353642;
 }
 
 .posts-button{
@@ -124,10 +125,10 @@
 
 .posts-button button{
     width: 100%;
-    padding: 11%;
-    font-weight: 600;
-    color: #000;
     border: none;
+    padding: 11%;
+    color: #000;
+    font-weight: 600;
     border-radius: 5px;
     background-color: #F7B801;
 }
@@ -170,20 +171,20 @@
 
 .news-icon{
     display: flex;
-    align-items: center;
     margin-right: 20px;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .news-comments-container{
-    border-top: 2px solid #808080;
     padding: 10px 35px 35px 35px;
+    border-top: 2px solid #808080;
 }
 
 .news-comments{
     display: flex;
-    align-items: center;
     font-size: 15px;
+    align-items: center;
 }
 
 .news-user-ava{
@@ -206,26 +207,26 @@
 }
 
 .user-comment input{
-    padding: 1% 2%;
-    height: 30px;
     width: 95%;
-    background-color: #353642;
+    height: 30px;
+    color: #fff;
     outline: none;
+    padding: 1% 2%;
     border-radius: 15px;
     border: 2px solid #F7B801;
-    color: #fff;
+    background-color: #353642;
 }
 
 .user-comment-button{
     padding: 3%;
-    font-weight: 600;
-    color: #000;
+    width: 100%;
+    height: 42px;
     border: none;
+    color: #000;
+    font-weight: 600;
+    margin-left: 10px;
     border-radius: 15px;
     background-color: #F7B801;
-    margin-left: 10px;
-    height: 42px;
-    width: 100%;
 }
 
 /*/////////////// COMMUNITIES  ///////////////// */
@@ -236,13 +237,13 @@
 }
 
 .communities-name{
-    justify-content: space-between;
     padding: 3% 0;
+    justify-content: space-between;
 }
 
 .communities-title{
-    justify-content: space-between;
     padding: 3% 0;
+    justify-content: space-between;
     border-bottom: 2px solid #808080;
 }
 
@@ -261,14 +262,14 @@
 
 .communities-button button{
     width: 160px;
+    color: #fff;
+    display: flex;
     border-radius: 5px;
+    align-items: center;
+    justify-content: center;
     border: 2px solid #F7B801;
     background-color: #353642;
-    color: #fff;
     padding: 10px 10px 10px 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .communities-icons{
@@ -281,9 +282,9 @@
 }
 
 .communities-information{
+    margin: 3% 0;
     border-radius: 5px;
     border: 2px solid #808080;
-    margin: 3% 0;
 }
 
 .information-name{
@@ -311,17 +312,17 @@
     .posts-button{
         width: 14%;
     }
-    .posts-input input{
-        border-radius: 15px;
-    }
-    .posts-button button{
-        border-radius: 15px;
-    }
     .user-comment input{
         width: 80%;
     }
     .user-comment-button{
         width: 10%;
+    }
+    .posts-input input{
+        border-radius: 15px;
+    }
+    .posts-button button{
+        border-radius: 15px;
     }
 }
 

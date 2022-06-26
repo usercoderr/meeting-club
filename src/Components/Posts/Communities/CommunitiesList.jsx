@@ -1,10 +1,10 @@
-import { communitiesList } from '../../../files/communitiesList'
 import React, { useState } from 'react'
 import { BiHeart, BiCommentDetail } from "react-icons/bi";
 import userCom from '../../../image/usercom.png'
 import userAva from '../../../image/userAva.png'
 import { Link } from 'react-router-dom';
 import CommunitiesPage from '../Communities/CommunitiesPage';
+import { posts } from '../../../files/posts'
 
 export default function CommunitiesList() {
     const [like, setLike] = useState('')
@@ -14,7 +14,7 @@ export default function CommunitiesList() {
   }
   return (
     <div>
-        {communitiesList.map(news =>
+        {posts.map(post => post.communitiePosts.map(news =>
           <div className='news-box'>
             <div className='news-box-container'>
             <div className='news-name'>
@@ -63,7 +63,7 @@ export default function CommunitiesList() {
             </div>
             </div>
           </div>
-      )}
+      ))}
     </div>
   )
 }

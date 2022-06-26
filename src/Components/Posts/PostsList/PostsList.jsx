@@ -8,21 +8,26 @@ import CommunitiesPage from '../Communities/CommunitiesPage';
 
 export default function PostsList() {
   const [like, setLike] = useState('')
+  let comPost = posts.map(post => post.communitiePosts[post.communitiePosts.length - 1])
 
   const handleLike = () => {
     setLike(!like)
   }
+
+  const openCommunnitiePage = (id) => {
+    console.log(id)
+  }
   return (
     <div>
-      {posts.map(news =>
+      {posts.map(post => comPost.map(news => 
           <div className='news-box'>
             <div className='news-box-container'>
             <div className='news-name'>
               <div className='news-ava'>
-                <Link to='/communities' element={<CommunitiesPage/>}><img src={news.communitieImage} alt="" /></Link>
+                <Link to='/communities' element={<CommunitiesPage/>} onClick={openCommunnitiePage(post.id)}><img src={post.imageCommunitie} alt="" /></Link>
               </div>
               <div>
-              <Link to='/communities' element={<CommunitiesPage/>}><p>{news.name}</p></Link>
+              <Link to='/communities' element={<CommunitiesPage/>}><p>{post.nameCommunitie}</p></Link>
                 <p>{news.data}</p>
               </div>
             </div>
@@ -63,7 +68,7 @@ export default function PostsList() {
             </div>
             </div>
           </div>
-      )}
+      ))}
     </div>
   )
 }
