@@ -32,9 +32,6 @@ const Registration = () => {
                     <div className='meeting-orange'>MEETING</div>
                     <div className='meeting-grey'>MEETING</div>
                 </div>
-
-
-
             </div>
 
             <div className='registration-form'>
@@ -64,7 +61,7 @@ const Registration = () => {
                         rules={[
                             {
                                 required: true,
-                                message: 'Please input your username!',
+                                message: 'Пожалуйста, введите имя пользователя!',
                             },
                         ]}
                     >
@@ -79,7 +76,7 @@ const Registration = () => {
                             {
                                 type: 'email',
                                 required: true,
-                                message: 'Please input your email!',
+                                message: 'Пожалуйста, введите вашу почту!',
                             },
                         ]}
                     >
@@ -93,7 +90,7 @@ const Registration = () => {
                         rules={[
                             {
                                 required: true,
-                                message: 'Please input your password!',
+                                message: 'Пожалуйста, введите ваш пароль!',
                             },
                         ]}
                     >

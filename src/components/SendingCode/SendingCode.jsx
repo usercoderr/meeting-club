@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Form, Input } from 'antd';
-import './SendingCode.scss'
-
+import { Link } from 'react-router-dom';
+import '../Registration/Registration.scss'
 
 const SendingCode = () => {
     const onFinish = (values) => {
@@ -62,8 +62,14 @@ const SendingCode = () => {
                         }}
                     >
                         <Button type="primary" htmlType="submit">
-                            Зарегистрироваться
+                            <Link to="/registration" className='links-routes'>
+                                Зарегистрироваться
+                            </Link>
                         </Button>
+
+                        {/* <div className='code'>
+                        </div> */}
+
                     </Form.Item>
                 </Form>
             </div>
