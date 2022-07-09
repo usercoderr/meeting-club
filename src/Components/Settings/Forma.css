@@ -3,43 +3,52 @@
     background-color: #222227 !important;
 }
 
+
 .forma{
     display: flex;
     width: 100%;
     height: 100vh;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .inputs{
     display: flex;
-    width: 80%;
-    margin: auto;
+    width: 100%;
     height: 100%;
     justify-content:space-between;
 }
 .left-forms{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    justify-content: center;
+    display: flex !important;
+    flex-direction: column !important;
+    /* justify-content: center; */
     align-items: flex-end;
+    margin: 0%;
+    padding: 0%;
+    width: 50% !important;
 }
 .right-forms{
     display: flex;
-    width: 50%;
+    width: 50%; 
+    margin: 0%;
     flex-direction: column;
-    justify-content:center;
+    /* justify-content:center; */
     align-items: flex-end;
 }
 .label-set{
     color: #808080;
 }
+#basic{
+    display: flex;
+}
 .ant-form{
     display: flex;
     width: 80%;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: 0% !important;
+    padding: 0% !important;
 }
 .confirm{
     display: flex;
@@ -56,26 +65,21 @@
     color: #fff;
 }
 
-.ant-input {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-variant: tabular-nums;
-    list-style: none;
-    font-feature-settings: 'tnum', "tnum";
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    min-width: 0;
-    padding: 4px 11px;
-    color: rgba(0, 0, 0, 0.85);
-    font-size: 14px;
-    line-height: 1.5715;
-    background-image: none;
-    border: 1px solid #2b1010;
-    border-radius: 2px;
-    transition: all 0.3s;
-}
+
 button, input {
     overflow: visible;
+}
+
+.input-class {
+    display: flex !important;  
+    justify-content: space-around !important;
+    width: 100% !important;
+    padding: 10px 30px !important;
+    background: rgba(0, 0, 0, 0.2) !important;
+    border: 1px solid #FFB61D !important;
+    border-radius: 10px !important;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+    background: rgb(0,0,0, 0);
 }

@@ -42,7 +42,7 @@ const Forma = () => {
             },
         ]}
         >
-        <Input  className='input-class'/>
+        <Input className='input-class'/>
       </Form.Item>
       
         <div className='label-set'>Сменить пароль</div>

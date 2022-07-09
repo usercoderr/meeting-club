@@ -16,6 +16,7 @@ export default function Settings(props) {
                 height={54} alt="" />
                </Link>
             </div>
+            <div>
             <div className="avatar">
                 <div className="avatar-frame">
                     <img src={ava} alt="" />
@@ -29,9 +30,10 @@ export default function Settings(props) {
                     </p>
                 </div>
             </div>
+            <Forma/>
+            </div>
             
         </div>
-        <Forma/>
     </div>
   )
 }
