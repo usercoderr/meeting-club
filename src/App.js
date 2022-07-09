@@ -22,6 +22,9 @@ function App() {
         <Route path='/communities' element={<CommunitiesPage/>}/>
         <Route path='/sign-in' element={<SignIn/>}/>
         <Route path='/setting' element={<Settings/>}/>
+        <Route path='/code' element={<SendingCOde/>}/>
+
+        
     </Routes>
     
      
