@@ -30,6 +30,8 @@ const Forma = () => {
         onFinish={onFinish}
         onFinishFailed={onFinishFailed}
         autoComplete="off"
+        class="ant-form ant-form-center"
+        layout='center'
         >
           <div className='label-set'>Сменить логин</div>
       <Form.Item
@@ -92,6 +94,8 @@ const Forma = () => {
         onFinish={onFinish}
         onFinishFailed={onFinishFailed}
         autoComplete="off"
+        class="ant-form ant-form-center"
+        layout='center'
         >
           <div className='label-set'>Вставить ссылку</div>
       <Form.Item
