@@ -1,8 +1,9 @@
 import React from 'react'
 import { Button, Form, Input } from 'antd';
-import './SignIn.scss'
 import logo from '../../image/blacklogo.png'
 import {Link} from 'react-router-dom'
+import '../Registration/Registration.scss'
+
 
 
 const SignIn = () => {
@@ -65,7 +66,7 @@ const SignIn = () => {
                             {
                                 type: 'email',
                                 required: true,
-                                message: 'Please input your email!',
+                                message: 'Пожалуйста, введите вашу почту!',
                             },
                         ]}
                     >
@@ -79,7 +80,7 @@ const SignIn = () => {
                         rules={[
                             {
                                 required: true,
-                                message: 'Please input your password!',
+                                message: 'Пожалуйста, введите ваш пароль!',
                             },
                         ]}
                     >
