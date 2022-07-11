@@ -5,35 +5,38 @@
 
 
 .forma{
-    display: flex;
+    /* display: flex; */
     width: 100%;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: space-around;
+    height: auto;
+    /* height: 100vh; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
     align-items: center;
+    padding: 0 5%;
 }
 .inputs{
     display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content:space-between;
+    /* width: 100%; */
+    /* height: 100%; */
+    justify-content:center;
 }
 .left-forms{
-    display: flex !important;
-    flex-direction: column !important;
+    /* display: flex !important; */
+    /* flex-direction: column !important; */
     /* justify-content: center; */
-    align-items: flex-end;
+    /* align-items: flex-end; */
     margin: 0%;
-    padding: 0%;
-    width: 50% !important;
+    padding: 0 3% 0 0;
+    /* width: 50% !important; */
 }
 .right-forms{
-    display: flex;
-    width: 50%; 
+    /* display: flex; */
+    /* width: 50%;  */
     margin: 0%;
-    flex-direction: column;
+    padding: 0 0 0 3%;
+    /* flex-direction: column; */
     /* justify-content:center; */
-    align-items: flex-end;
+    /* align-items: flex-end; */
 }
 .label-set{
     color: #808080;
@@ -52,7 +55,8 @@
 }
 .confirm{
     display: flex;
-    padding-bottom: 300px;
+    /* padding-bottom: 300px; */
+    justify-content: center;
     
 }
 
