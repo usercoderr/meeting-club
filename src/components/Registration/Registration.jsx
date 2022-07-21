@@ -17,7 +17,7 @@ const Registration = () => {
 
     return (
         <div className='registration-container'>
-        <div>
+            <div>
           <Link to="/posts"><img src={logo} alt=""/></Link>
          </div>
              <div className='registration-box'>
@@ -134,6 +134,7 @@ const Registration = () => {
 
         </div>
         </div>
+        
     );
 };
 
